@@ -27,5 +27,5 @@
     <string name="retry">Reintentar</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
-    <!-- Firebase Web Client ID (from google-services.json oauth_client type 3) -->
     <string name="default_web_client_id">677176030673-kr3nssq0nchat86u7idsaeod7jomhiv6.apps.googleusercontent.com</string>
+</resources>
