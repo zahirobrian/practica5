@@ -216,3 +216,73 @@ data class SearchHistory(
 - Open Library. (2024). *Open Library API*. https://openlibrary.org/developers/api
 - TVMaze. (2024). *TVMaze API*. https://www.tvmaze.com/api
 - Android Developers. (2024). *Navigation component*. https://developer.android.com/guide/navigation
+
+---
+
+## Desarrollo — Capturas de pantalla
+
+### Login con Google
+
+La pantalla de inicio muestra el botón de Google Sign-In sobre fondo guinda institucional. Al presionarlo se abre el flujo estándar de autenticación de Google con Firebase.
+
+<p align="center">
+  <img src="screenshots/login.png" width="220"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/google_signin.png" width="220"/>
+</p>
+<p align="center"><i>Figura 1. Pantalla de login — Figura 2. Flujo de autenticación con Google</i></p>
+
+---
+
+### Búsqueda de Libros (Open Library API)
+
+La pestaña 📚 Libros consume la Open Library API via Retrofit. Al buscar "los juegos del hambre" devuelve resultados con portada, autor, año y temas, todos cacheados en Room para acceso offline.
+
+<p align="center">
+  <img src="screenshots/busqueda_libros.png" width="220"/>
+</p>
+<p align="center"><i>Figura 3. Búsqueda de libros — "los juegos del hambre" con portadas, autores y temas desde Open Library</i></p>
+
+---
+
+### Búsqueda de Series (TVMaze API)
+
+La pestaña 📺 Series consume la TVMaze API. Al buscar "How I meet your mother" devuelve resultados con imagen, géneros, año de estreno y sinopsis.
+
+<p align="center">
+  <img src="screenshots/busqueda_series.png" width="220"/>
+</p>
+<p align="center"><i>Figura 4. Búsqueda de series — "How I meet your mother" con datos de TVMaze API</i></p>
+
+---
+
+### Favoritos
+
+Los ítems marcados con ⭐ se guardan en Room Database y son visibles sin conexión. La lista muestra libros y series mezclados con su portada, autor/género y año.
+
+<p align="center">
+  <img src="screenshots/favoritos.png" width="220"/>
+</p>
+<p align="center"><i>Figura 5. Pantalla de favoritos — "Sunrise on the Reaping" (libro) y "How I Met Your Mother" (serie) guardados en Room</i></p>
+
+---
+
+### Recomendaciones Personalizadas
+
+El sistema genera recomendaciones basadas en los favoritos del usuario. Al tener un libro de Suzanne Collins como favorito, recomienda más libros de la misma autora vía Open Library.
+
+<p align="center">
+  <img src="screenshots/recomendaciones.png" width="220"/>
+</p>
+<p align="center"><i>Figura 6. Recomendaciones generadas automáticamente basadas en favoritos del usuario</i></p>
+
+---
+
+### Perfil de Usuario
+
+La pantalla de perfil muestra la foto, nombre completo y correo de la cuenta de Google. También muestra contadores de favoritos y búsquedas, historial completo con fechas, y opción de cerrar sesión.
+
+<p align="center">
+  <img src="screenshots/perfil.png" width="220"/>
+</p>
+<p align="center"><i>Figura 7. Perfil — Brian Ricardo Bernal Ramírez, 2 favoritos, 10 búsquedas, historial con timestamps</i></p>
