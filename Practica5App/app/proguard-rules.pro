@@ -1,0 +1,4 @@
+-keep class com.ipn.practica5.data.** { *; }
+-keep class com.ipn.practica5.data.remote.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*

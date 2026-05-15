@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.Practica5" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#731D3F</item>
+        <item name="colorPrimaryVariant">#4A0F28</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#C0395A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#1C1B1F</item>
+        <item name="android:colorBackground">#FAFAFA</item>
+        <item name="android:statusBarColor">#4A0F28</item>
+        <item name="android:navigationBarColor">#731D3F</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

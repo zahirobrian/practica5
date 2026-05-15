@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Practica 5 IPN</string>
+    <string name="sign_in_with_google">Iniciar sesión con Google</string>
+    <string name="search">Buscar</string>
+    <string name="favorites">Favoritos</string>
+    <string name="recommendations">Recomendaciones</string>
+    <string name="profile">Perfil</string>
+    <string name="search_hint_books">Buscar libros o autores…</string>
+    <string name="search_hint_shows">Buscar series o películas…</string>
+    <string name="add_favorite">Agregar a favoritos</string>
+    <string name="remove_favorite">Quitar de favoritos</string>
+    <string name="no_results">Sin resultados</string>
+    <string name="no_favorites">Sin favoritos aún</string>
+    <string name="no_recommendations">Agrega favoritos para obtener recomendaciones</string>
+    <string name="offline_mode">Modo sin conexión — mostrando datos locales</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="books">Libros</string>
+    <string name="shows">Series</string>
+    <string name="author">Autor</string>
+    <string name="year">Año</string>
+    <string name="genre">Género</string>
+    <string name="status">Estado</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="search_history">Historial de búsquedas</string>
+    <string name="clear_history">Limpiar historial</string>
+    <string name="loading">Cargando…</string>
+    <string name="retry">Reintentar</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <!-- Firebase Web Client ID (from google-services.json oauth_client type 3) -->
+    <string name="default_web_client_id">677176030673-kr3nssq0nchat86u7idsaeod7jomhiv6.apps.googleusercontent.com</string>

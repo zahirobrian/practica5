@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="guinda">#731D3F</color>
+    <color name="guinda_dark">#4A0F28</color>
+    <color name="guinda_accent">#C0395A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="star_yellow">#FFC107</color>
+</resources>

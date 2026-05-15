@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "677176030673",
+    "project_id": "practica5-894e2",
+    "storage_bucket": "practica5-894e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677176030673:android:32f5f8ca98077e68f25cf0",
+        "android_client_info": {
+          "package_name": "com.ipn.practica5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677176030673-vusd0s962iri13bb8rsrpm0bvd8pqf96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ipn.practica5",
+            "certificate_hash": "bfff6b15fe456fdaee57ea5c6ed8141956872793"
+          }
+        },
+        {
+          "client_id": "677176030673-kr3nssq0nchat86u7idsaeod7jomhiv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByKYikGnvBl5HRewsbdkDFjEPs6F9jHlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677176030673-kr3nssq0nchat86u7idsaeod7jomhiv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_search">
+
+    <fragment android:id="@+id/nav_search"
+        android:name="com.ipn.practica5.ui.search.SearchFragment"
+        android:label="@string/search" />
+
+    <fragment android:id="@+id/nav_favorites"
+        android:name="com.ipn.practica5.ui.favorites.FavoritesFragment"
+        android:label="@string/favorites" />
+
+    <fragment android:id="@+id/nav_recommendations"
+        android:name="com.ipn.practica5.ui.recommendations.RecommendationsFragment"
+        android:label="@string/recommendations" />
+
+    <fragment android:id="@+id/nav_profile"
+        android:name="com.ipn.practica5.ui.profile.ProfileFragment"
+        android:label="@string/profile" />
+
+</navigation>
