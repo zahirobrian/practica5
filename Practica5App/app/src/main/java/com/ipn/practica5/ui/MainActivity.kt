@@ -26,16 +26,17 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
 
         val user = FirebaseAuth.getInstance().currentUser
-        binding.toolbar.title = "Hola, ${user?.displayName?.split(" ")?.firstOrNull() ?: "Usuario"} 👋"
-        binding.toolbar.setTitleTextColor(0xFFFFFFFF.toInt())
+        val firstName = user?.displayName?.split(" ")?.firstOrNull() ?: "Usuario"
+        supportActionBar?.title = "Hola, $firstName 👋"
+        binding.toolbar.setTitleTextColor(android.graphics.Color.WHITE)
 
-        val navHost = supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
+        val navHost = supportFragmentManager
+            .findFragmentById(binding.navHostFragment.id) as NavHostFragment
         navController = navHost.navController
         binding.bottomNav.setupWithNavController(navController)
 
-        // Verificar conectividad y mostrar banner
-        val repo = MediaRepository(this)
-        if (!repo.isOnline()) {
+        // Banner offline
+        if (!MediaRepository(this).isOnline()) {
             binding.tvOfflineBanner.visibility = View.VISIBLE
         }
     }
